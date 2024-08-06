@@ -1,0 +1,204 @@
+html {
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90%;
+  padding: 0;
+  margin: 0;
+  overflow: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: lightslategrey;
+}
+
+h2 {
+  font-family: "Lora", serif;
+  visibility: hidden;
+}
+
+i {
+  font-family: "Lora", serif;
+  font-weight: bold;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.description {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+}
+
+.mk {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 794px;
+  visibility: hidden;
+}
+
+.social-medias {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  visibility: hidden;
+  transition: transform 0.5s;
+}
+
+.social-medias:hover{
+  transform: scale(1.02);
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.shine {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  /* border: 2px solid black; */
+  /* border-radius: 100%; */
+  width: 300px;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+}
+
+.music {
+  float: right;
+  margin-right: 3%;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.music p {
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-weight: 300;
+  margin-right: 10px;
+  text-align: right;
+}
+
+#icon {
+  width: 50px;
+  cursor: pointer;
+}
+
+.b {
+  font-size: 20px;
+  margin-left: 6%;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.duracao {
+  width: 300px;
+  margin-top: 25px;
+  visibility: hidden;
+}
+
+.barra {
+  width: 300px;
+  height: 6px;
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+progress {
+  height: 6px;
+  width: 0%;
+  background-color: #f2f2f2;
+  border: 4px solid #f2f2f2;
+  border-radius: 60px;
+}
+
+.ponto {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 60%;
+  margin-left: -9.5px;
+}
+
+.tempo {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.botao-play,
+.botao-pause {
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.botao-pause {
+  display: none;
+}
+
+.descricao {
+  margin-top: 9rem;
+  /* visibility: hidden; */ 
+}
+
+body {
+  overflow-y: hidden; /* Hide horizontal scrollbar */
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.img-la {
+  visibility: hidden;
+}
+
+.bg_video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  background-size: cover;
+  object-fit: cover;
+  object-position: center;
+}
