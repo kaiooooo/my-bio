@@ -74,7 +74,11 @@
             <p class="fim">2:53</p>
           </div>
         </div>
-     <audio src="musica/song.mp3" autoplay loop></audio>
+        <iframe src="audio/source.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+        </iframe> 
+        <audio autoplay loop id="playAudio">
+          <source src="musica/song.mp3">
+      </audio>
         <script src="script.js"></script>
         <b
           style="color: #131212e7; font-family: 'Times New Roman', Times, serif"
